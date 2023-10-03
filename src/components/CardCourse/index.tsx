@@ -1,4 +1,5 @@
 import imgCard from '../../assets/card-img.png';
+import ButtonBorder from '../ButtonBorder';
 
 type Props = {
     title: string;
@@ -18,7 +19,7 @@ export default function CardCourse({ title, description }: Props) {
                     <p>{description}</p>
                 </div>
                 <div className="card-btn-container">
-                    <div className="btn-basic">Tenho interesse</div>
+                    <ButtonBorder text="Saiba mais" borderColor="#00ff00" />
                 </div>
             </div>
         </div>

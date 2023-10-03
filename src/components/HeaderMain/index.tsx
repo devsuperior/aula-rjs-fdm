@@ -3,7 +3,7 @@ import imgLogo from '../../assets/logo.svg';
 export default function HeaderMain() {
 
     return (
-        <header className="full-width-container main-header">
+      <header className="full-width-container main-header">
         <div className="container header-content-container">
           <div>
             <img className="img-logo" src={imgLogo} alt="Devsuperior" />
